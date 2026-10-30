@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rhiamom's Sims 2 Tools</title>
+  <meta name="description" content="Free Sims 2 utilities for Mac, Windows and Linux: SimPE, Clean Installer, CC-Merger, Road Editor, Hood Checker and more.">
+  <link rel="icon" href="icons/simpe.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="./">Rhiamom's Sims 2 Tools</a>
+    <nav>
+      <a href="./" aria-current="page">Tools</a>
+      <a href="install.html">How to Install</a>
+      <a href="#about">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <h1>Free tools for The Sims 2</h1>
+    <p>Utilities for building, fixing and organizing your game, most of them made
+    for Mac players, who went without them for twenty years. All free and open source.</p>
+  </section>
+
+  <div class="grid">
+    <a href="#simpe"><img src="icons/simpe.png" alt=""><div><strong>SimPE</strong><span>The Sims 2 package editor</span></div></a>
+    <a href="#clean-installer"><img src="icons/clean-installer.png" alt=""><div><strong>Clean Installer</strong><span>Install Sims2Packs your way</span></div></a>
+    <a href="#download-organizer"><img src="icons/download-organizer.png" alt=""><div><strong>Download Organizer</strong><span>Catalog and tidy your CC</span></div></a>
+    <a href="#cc-merger"><img src="icons/cc-merger.png" alt=""><div><strong>CC-Merger</strong><span>Merge thousands of packages into a few</span></div></a>
+    <a href="#hood-checker"><img src="icons/hood-checker.png" alt=""><div><strong>Hood Checker</strong><span>Find and fix neighborhood corruption</span></div></a>
+    <a href="#hoodreplacer"><img src="icons/hoodreplacer.png" alt=""><div><strong>HoodReplacer</strong><span>Move a neighborhood to new terrain</span></div></a>
+    <a href="#road-editor"><img src="icons/road-editor.png" alt=""><div><strong>Road Editor</strong><span>Draw and erase roads and bridges</span></div></a>
+    <a href="#lotadjuster"><img src="icons/lotadjuster.png" alt=""><div><strong>LotAdjuster</strong><span>Make a lot bigger or smaller</span></div></a>
+    <a href="#gridadjuster"><img src="icons/gridadjuster.png" alt=""><div><strong>GridAdjuster</strong><span>Reshape ground, build real basements</span></div></a>
+    <a href="#convertiwall"><img src="icons/convertiwall.png" alt=""><div><strong>ConvertiWall</strong><span>Change one wall type into another</span></div></a>
+  </div>
+
+  <!-- ===================== SimPE ===================== -->
+  <section class="tool" id="simpe">
+    <div class="tool-head">
+      <img src="icons/simpe.png" alt="SimPE icon">
+      <div>
+        <h2>SimPE</h2>
+        <p class="credit">Based on SimPE by Quaxi (Ambertation) and Chris Hatch</p>
+        <div class="tags"><span>Mac</span><span>Windows</span><span>Linux</span></div>
+      </div>
+    </div>
+    <p>The package editor every Sims 2 creator uses: open any <code>.package</code> file and edit
+    objects, clothing, Sims, neighborhoods and more. This version is a maintained fork of
+    SimPE 0.77, updated to 64-bit .NET 8 with bug fixes and the NSFW content removed.</p>
+    <ul>
+      <li><strong>Mac:</strong> a normal Mac app with its own copy of Wine built in, so there's
+        nothing else to set up. Runs on Apple Silicon (through Rosetta) and Intel, macOS 10.15 or later.
+        Works with the Super Collection.</li>
+      <li><strong>Windows:</strong> no DirectX or Nvidia DDS tools needed.</li>
+      <li><strong>Linux:</strong> a native build.</li>
+    </ul>
+    <div class="note">On a Mac, quit SimPE with <strong>File → Exit</strong>. That's when it saves your
+      window layout; force-quitting skips the save.</div>
+    <div class="downloads">
+      <a class="btn" data-repo="SimPE-Mac-Wine" data-ext=".dmg" href="https://github.com/rhiamom/SimPE-Mac-Wine/releases/latest">Download for Mac</a>
+      <a class="btn" data-repo="SimPE-Fixed" data-ext=".zip" href="https://github.com/rhiamom/SimPE-Fixed/releases/latest">Download for Windows</a>
+      <a class="btn" data-repo="SimPE-Fixed-Linux" data-ext=".zip" href="https://github.com/rhiamom/SimPE-Fixed-Linux/releases/latest">Download for Linux</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/SimPE-Mac-Wine">Mac</a> ·
+      <a href="https://github.com/rhiamom/SimPE-Fixed">Windows</a> ·
+      <a href="https://github.com/rhiamom/SimPE-Fixed-Linux">Linux</a></p>
+  </section>
+
+  <!-- ===================== Clean Installer ===================== -->
+  <section class="tool" id="clean-installer">
+    <div class="tool-head">
+      <img src="icons/clean-installer.png" alt="Clean Installer icon">
+      <div>
+        <h2>Clean Installer for Mac</h2>
+        <p class="credit">Mac version of Mootilda's Sims2Pack Clean Installer</p>
+        <div class="tags"><span>Mac</span></div>
+      </div>
+    </div>
+    <p>Open a <code>.Sims2Pack</code> file and see exactly what's inside before anything touches
+    your game. Pick the parts you want, skip the ones you already have, and the Clean Installer puts
+    each one in the right folder: Downloads, Saved Sims, the lot catalog or the Teleport folder.
+    Installed Sims show up in Body Shop.</p>
+    <div class="downloads">
+      <a class="btn" data-repo="Clean-Installer-for-Mac" data-ext=".dmg" href="https://github.com/rhiamom/Clean-Installer-for-Mac/releases/latest">Download for Mac</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/Clean-Installer-for-Mac">GitHub</a></p>
+  </section>
+
+  <!-- ===================== Download Organizer ===================== -->
+  <section class="tool" id="download-organizer">
+    <div class="tool-head">
+      <img src="icons/download-organizer.png" alt="Download Organizer icon">
+      <div>
+        <h2>Delphy's Download Organizer for Mac</h2>
+        <p class="credit">Mac version of Delphy's Download Organiser, ported with Delphy's permission</p>
+        <div class="tags"><span>Mac</span></div>
+      </div>
+    </div>
+    <p>A catalog of everything in your Downloads folder. See each package's name, type and
+    description, sort and filter them, find duplicates, orphaned recolors and broken files, preview
+    textures, and move packages into subfolders.</p>
+    <div class="downloads">
+      <a class="btn" data-repo="Delphy-s-Download-Organizer-for-Mac" data-ext=".dmg" href="https://github.com/rhiamom/Delphy-s-Download-Organizer-for-Mac/releases/latest">Download for Mac</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/Delphy-s-Download-Organizer-for-Mac">GitHub</a></p>
+  </section>
+
+  <!-- ===================== CC-Merger ===================== -->
+  <section class="tool" id="cc-merger">
+    <div class="tool-head">
+      <img src="icons/cc-merger.png" alt="CC-Merger icon">
+      <div>
+        <h2>CC-Merger for Mac</h2>
+        <p class="credit">Mac version of CCMerger by Lazy Duchess</p>
+        <div class="tags"><span>Mac</span></div>
+      </div>
+    </div>
+    <p>Merges a folder full of <code>.package</code> files into a few large ones. Fewer, larger
+    packages load faster and are easier to manage.</p>
+    <p>It also fixes a Super Collection crash: with many thousands of loose packages in Downloads,
+    the game can crash while rebuilding its catalog. One Downloads folder of 7,426 packages, merged
+    into 4, loaded fine.</p>
+    <div class="downloads">
+      <a class="btn" data-repo="CC-Merger-for-Mac" data-ext=".dmg" href="https://github.com/rhiamom/CC-Merger-for-Mac/releases/latest">Download for Mac</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/CC-Merger-for-Mac">GitHub</a></p>
+  </section>
+
+  <!-- ===================== Hood Checker ===================== -->
+  <section class="tool" id="hood-checker">
+    <div class="tool-head">
+      <img src="icons/hood-checker.png" alt="Hood Checker icon">
+      <div>
+        <h2>Hood Checker for Mac</h2>
+        <p class="credit">Mac version of Hood Checker by Mootilda and Andi8104</p>
+        <div class="tags"><span>Mac</span></div>
+      </div>
+    </div>
+    <p>Checks a neighborhood for the leftovers that cause corruption: family ties, relationships
+    and memories that still point to Sims who no longer exist. It lists every problem it finds and
+    can remove them for you. It backs up the neighborhood before changing anything.</p>
+    <div class="note">Quit the game before using it.</div>
+    <div class="downloads">
+      <a class="btn" data-repo="Hood-Checker-for-Mac" data-ext=".dmg" href="https://github.com/rhiamom/Hood-Checker-for-Mac/releases/latest">Download for Mac</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/Hood-Checker-for-Mac">GitHub</a></p>
+  </section>
+
+  <!-- ===================== HoodReplacer ===================== -->
+  <section class="tool" id="hoodreplacer">
+    <div class="tool-head">
+      <img src="icons/hoodreplacer.png" alt="HoodReplacer icon">
+      <div>
+        <h2>HoodReplacer for Mac</h2>
+        <p class="credit">Mac version of Mootilda's HoodReplace</p>
+        <div class="tags"><span>Mac</span></div>
+      </div>
+    </div>
+    <p>Moves an existing neighborhood onto a different terrain. Your lots and families stay; the
+    lots are settled onto the new ground. Roads, bridges, trees and decorations can be replaced,
+    refitted to the new ground, or removed.</p>
+    <div class="note">Quit the game and back up your neighborhood first.</div>
+    <div class="downloads">
+      <a class="btn" data-repo="HoodReplacer-for-Mac" data-ext=".dmg" href="https://github.com/rhiamom/HoodReplacer-for-Mac/releases/latest">Download for Mac</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/HoodReplacer-for-Mac">GitHub</a></p>
+  </section>
+
+  <!-- ===================== Road Editor ===================== -->
+  <section class="tool" id="road-editor">
+    <div class="tool-head">
+      <img src="icons/road-editor.png" alt="Road Editor icon">
+      <div>
+        <h2>Road Editor</h2>
+        <p class="credit">Uses neighborhood code by Mootilda</p>
+        <div class="tags"><span>Mac</span><span>Windows</span></div>
+      </div>
+    </div>
+    <p>Draw and erase roads on a neighborhood you already have, including bridges up to
+    8 squares long. It keeps you from making roads the game can't handle: no roads up cliffs or
+    through lots, and it never removes the road in front of a lot.</p>
+    <ul>
+      <li><strong>Mac:</strong> Super Collection, macOS 10.15 or later.</li>
+      <li><strong>Windows:</strong> Ultimate Collection and Legacy Collection, 64-bit Windows.
+        Windows will warn you the first time you run it; see
+        <a href="install.html#windows">How to Install</a>.</li>
+    </ul>
+    <div class="note">Quit the game before using it. A backup of the neighborhood is made every time you save.</div>
+    <div class="downloads">
+      <a class="btn" data-repo="Road-Editor-for-Mac" data-ext=".dmg" href="https://github.com/rhiamom/Road-Editor-for-Mac/releases/latest">Download for Mac</a>
+      <a class="btn" data-repo="Road-Editor-for-Windows" data-ext=".zip" href="https://github.com/rhiamom/Road-Editor-for-Windows/releases/latest">Download for Windows</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/Road-Editor-for-Mac">Mac</a> ·
+      <a href="https://github.com/rhiamom/Road-Editor-for-Windows">Windows</a></p>
+  </section>
+
+  <!-- ===================== LotAdjuster ===================== -->
+  <section class="tool" id="lotadjuster">
+    <div class="tool-head">
+      <img src="icons/lotadjuster.png" alt="LotAdjuster icon">
+      <div>
+        <h2>LotAdjuster for Mac</h2>
+        <p class="credit">Mac version of Mootilda's Lot Adjuster 3.6</p>
+        <div class="tags"><span>Mac</span></div>
+      </div>
+    </div>
+    <p>Make a lot bigger or smaller by adding or removing rows of tiles on any side, even after
+    it's been built on. Need a deeper back yard? Add ten rows to the back.</p>
+    <div class="note">Quit the game before using it. A backup of the lot is made every time.</div>
+    <div class="downloads">
+      <a class="btn" data-repo="Lot-Adjuster-for-Mac" data-ext=".dmg" href="https://github.com/rhiamom/Lot-Adjuster-for-Mac/releases/latest">Download for Mac</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/Lot-Adjuster-for-Mac">GitHub</a></p>
+  </section>
+
+  <!-- ===================== GridAdjuster ===================== -->
+  <section class="tool" id="gridadjuster">
+    <div class="tool-head">
+      <img src="icons/gridadjuster.png" alt="GridAdjuster icon">
+      <div>
+        <h2>GridAdjuster for Mac</h2>
+        <p class="credit">Mac version of Mootilda's TS2GridAdjuster</p>
+        <div class="tags"><span>Mac</span></div>
+      </div>
+    </div>
+    <p>Changes the height of the ground and floors on a lot. Flatten it, slope it, curve it,
+    make split levels and sunken rooms, or sink a house to make a <strong>real basement</strong>
+    with no sloped ground around it. A <strong>Finish basement</strong> step, new in the Mac
+    version, tidies up the result.</p>
+    <div class="note">Quit the game before using it. A backup of the lot is made every time.</div>
+    <div class="downloads">
+      <a class="btn" data-repo="Grid-Adjuster-for-Mac" data-ext=".dmg" href="https://github.com/rhiamom/Grid-Adjuster-for-Mac/releases/latest">Download for Mac</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/Grid-Adjuster-for-Mac">GitHub</a></p>
+  </section>
+
+  <!-- ===================== ConvertiWall ===================== -->
+  <section class="tool" id="convertiwall">
+    <div class="tool-head">
+      <img src="icons/convertiwall.png" alt="ConvertiWall icon">
+      <div>
+        <h2>ConvertiWall for Mac</h2>
+        <p class="credit">Mac version of Mootilda's ConvertiWall</p>
+        <div class="tags"><span>Mac</span></div>
+      </div>
+    </div>
+    <p>Changes walls of one type into another type within an area of a lot, for example
+    ordinary walls into foundation walls, or back again. Wallpapers are kept.</p>
+    <div class="note">Some changes are safe and some crash the game. Mootilda tested normal →
+      foundation, foundation → normal and normal → non-rendered deck skirt as working. Try
+      anything else on a copy of your neighborhood first.</div>
+    <div class="downloads">
+      <a class="btn" data-repo="ConvertiWall-for-Mac" data-ext=".dmg" href="https://github.com/rhiamom/ConvertiWall-for-Mac/releases/latest">Download for Mac</a>
+    </div>
+    <p class="source">Source: <a href="https://github.com/rhiamom/ConvertiWall-for-Mac">GitHub</a></p>
+  </section>
+
+  <!-- ===================== About ===================== -->
+  <section class="tool" id="about">
+    <h2>About</h2>
+    <p>I'm Rhiamom, a Sims 2 creator since the early days. These tools started because Mac players
+    had been left out: most of the community's utilities were Windows-only and the source code was
+    sitting there, so I brought them over.</p>
+    <p>Most of these tools are other people's work, and they deserve the credit: Quaxi and Chris
+    Hatch for SimPE, Lazy Duchess for CCMerger, Delphy for the Download Organiser, and above all
+    Mootilda, whose tools make up most of this page. Mootilda has passed away. Her code runs in
+    these Mac versions as she wrote it, kept as she left it.</p>
+    <p>All the Mac apps are signed and notarized by Apple. Found a bug? Open an issue on the tool's
+    GitHub page, or find me on Tumblr.</p>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    Free and open source. Not affiliated with Electronic Arts, Maxis or Aspyr.
+    The Sims is a trademark of Electronic Arts Inc.
+  </div>
+</footer>
+
+<script src="releases.js"></script>
+</body>
+</html>
